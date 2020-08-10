@@ -137,25 +137,25 @@ class NumberElementCollector {
 var numberElementCollector = new NumberElementCollector()
 
 
-var draw = () => {
-  ctx.beginPath()
-  ctx.fillStyle = "rgba(0, 0, 0, 0.1)"
-  for (let numberElement of numberElementCollector.get()) {
-    ctx.font = numberElement.size / 1.5 + 'px arial black'
-    ctx.textBaseline = 'bottom'
-    ctx.textAlign = 'left'
-    ctx.fillText(
-      numberElement.value,
-      numberElement.x,
-      numberElement.y
-    )
-  }
-  ctx.fillStyle = "rgba(0, 0, 0, 0.07)"
-  ctx.fill()
-  ctx.lineWidth = 1
-  ctx.strokeStyle = "rgba(0, 0, 0, 0.08)"
-  ctx.stroke()
-}
+// var draw = () => {
+//   ctx.beginPath()
+//   ctx.fillStyle = "rgba(0, 0, 0, 0.1)"
+//   for (let numberElement of numberElementCollector.get()) {
+//     ctx.font = numberElement.size / 1.5 + 'px arial black'
+//     ctx.textBaseline = 'bottom'
+//     ctx.textAlign = 'left'
+//     ctx.fillText(
+//       numberElement.value,
+//       numberElement.x,
+//       numberElement.y
+//     )
+//   }
+//   ctx.fillStyle = "rgba(0, 0, 0, 0.07)"
+//   ctx.fill()
+//   ctx.lineWidth = 1
+//   ctx.strokeStyle = "rgba(0, 0, 0, 0.08)"
+//   ctx.stroke()
+// }
 
 
 
