@@ -24,13 +24,13 @@ body {
           text-align: center;
       }
 canvas {
-  background: #EEE;
+  background: white;
   position: fixed;
   top: 0;
   left: 0;
 }}
 canvas {
-  background: #EEE;
+  background: white;
   position: fixed;
   top: 0;
   left: 0;
